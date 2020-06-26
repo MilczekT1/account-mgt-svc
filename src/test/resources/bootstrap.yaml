@@ -1,0 +1,6 @@
+spring:
+  application:
+    name: account-management
+  cloud:
+    config:
+      enabled: false

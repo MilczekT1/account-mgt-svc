@@ -1,0 +1,21 @@
+spring:
+  profiles:
+    active: test
+  cloud:
+    config:
+      enabled: false
+  jpa:
+    open-in-view: false
+  zipkin:
+    enabled: false
+  security:
+    user:
+      name: "testUserName"
+      password: "testUserPassword"
+budget:
+  chassis:
+    http-logging:
+      enabled: true
+  baseUrl:
+    gateway: "https://konradboniecki.com.pl"
+    familyManagement: "http://localhost:10000"
